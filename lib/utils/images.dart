@@ -23,4 +23,9 @@ class AppImages {
     '${_basePath}oblong_bag.svg',
     semanticsLabel: 'Oblong Bag',
   );
+
+  static final Widget banner1 = SvgPicture.asset(
+    '${_basePath}banner1.svg',
+    semanticsLabel: 'First Banner Image',
+  );
 }
